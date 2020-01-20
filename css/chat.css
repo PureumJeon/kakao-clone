@@ -10,7 +10,6 @@
 
 .chats-body {
   padding: 10px 0px;
-  padding-top: 150px;
 }
 
 .chats-body .header,
@@ -43,6 +42,10 @@
 .chat__icon-right {
   position: absolute;
   right: 10px;
+}
+
+.chat-screen {
+  padding-top: 130px;
 }
 
 @keyframes float {
@@ -117,7 +120,6 @@
 }
 
 .chat-screen .chat__messages {
-  border-top: 1px solid #f7f7f7;
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -133,7 +135,7 @@
   margin-bottom: 30px;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .message {
@@ -173,7 +175,7 @@
   padding: 10px 20px;
   border-radius: 30px;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   display: block;
 }
 
